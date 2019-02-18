@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-graphql",
+  "name": "@kocal/rollup-plugin-graphql",
   "version": "0.1.0",
   "description": "Convert graphql files to ES6 modules",
   "main": "dist/rollup-plugin-graphql.cjs.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamilkisiela/rollup-plugin-graphql.git"
+    "url": "git+https://github.com/Kocal/rollup-plugin-graphql.git"
   },
   "keywords": [
     "graphql",
@@ -22,9 +22,16 @@
   "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kamilkisiela/rollup-plugin-graphql/issues"
+    "url": "https://github.com/Kocal/rollup-plugin-graphql/issues"
   },
-  "homepage": "https://github.com/kamilkisiela/rollup-plugin-graphql#readme",
+  "homepage": "https://github.com/Kocal/rollup-plugin-graphql#readme",
+  "contributors": [
+    "Benny Powers (https://github.com/bennypowers)",
+    "Hugo Alliaume (https://github.com/Kocal)"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "pretest": "npm run build",
