@@ -13,7 +13,7 @@ export default function(source) {
 function replaceModuleExports(source) {
   return source
     .replace('module.exports = doc', 'export default doc')
-    .replace(/module\.exports\["(.*)"] = oneQuery\(doc, "(.*)"\)/, (match, g1, g2) => `export const ${g1} = oneQuery(doc, "${g2}")`);
+    .replace(/module\.exports\["(.*)"] = oneQuery\(doc, "(.*)"\)/g, (match, g1, g2) => `export const ${g1} = oneQuery(doc, "${g2}")`);
 }
 
 function replaceRequires(source) {
