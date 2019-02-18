@@ -28,7 +28,7 @@ npm install --save-dev @kocal/rollup-plugin-graphql
 
 ```js
 import { rollup } from 'rollup';
-import graphql from 'rollup-plugin-graphql';
+import graphql from '@kocal/rollup-plugin-graphql';
 
 rollup({
   entry: 'main.js',
