@@ -1,3 +1,5 @@
+# This plugin is deprecated since one of this fork is now part of the official Rollup plugins, see [`@rollup/plugin-graphql`](https://www.npmjs.com/package/@rollup/plugin-graphql).
+
 # rollup-plugin-graphql
 
 Convert GraphQL files to ES6 modules:
